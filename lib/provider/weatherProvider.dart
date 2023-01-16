@@ -10,7 +10,7 @@ import '../models/dailyWeather.dart';
 import '../models/weather.dart';
 
 class WeatherProvider with ChangeNotifier {
-  String apiKey = '8bc1f9f18433660632232c660b998be9';
+  String apiKey = 'ca413dfdfaf90bbe6964943cbaf28397';
   LatLng? currentLocation;
   late Weather weather;
   DailyWeather currentWeather = DailyWeather();
